@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="fr.xebia"
+		module="cuttle-module$sources"
+		revision="0.1.0"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
+		date="20180114135420"/>
+	<dependencies>
+		<module organisation="com.spotify" name="spark-bigquery_2.11">
+			<revision name="0.2.2" status="release" pubdate="20171129033225" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spotify/spark-bigquery" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
+				<license name="Apache-2.0" url="http://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3821" time="0" location="/Users/loicmdivad/.ivy2/cache/com.spotify/spark-bigquery_2.11/ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/spotify/spark-bigquery_2.11/0.2.2/spark-bigquery_2.11-0.2.2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="spark-bigquery_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11974" time="592" location="/Users/loicmdivad/.ivy2/cache/com.spotify/spark-bigquery_2.11/srcs/spark-bigquery_2.11-0.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/spotify/spark-bigquery_2.11/0.2.2/spark-bigquery_2.11-0.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.1" status="release" pubdate="20160924145320" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2875" time="0" location="/Users/loicmdivad/.ivy2/cache/com.typesafe/config/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="170512" time="0" location="/Users/loicmdivad/.ivy2/cache/com.typesafe/config/srcs/config-1.3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.1/config-1.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.databricks" name="spark-avro_2.11">
+			<revision name="4.0.0" status="release" pubdate="20171030232444" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/databricks/spark-avro" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4440" time="0" location="/Users/loicmdivad/.ivy2/cache/com.databricks/spark-avro_2.11/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/databricks/spark-avro_2.11/4.0.0/spark-avro_2.11-4.0.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="spark-avro_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12416" time="412" location="/Users/loicmdivad/.ivy2/cache/com.databricks/spark-avro_2.11/srcs/spark-avro_2.11-4.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/databricks/spark-avro_2.11/4.0.0/spark-avro_2.11-4.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="bigquery-connector">
+			<revision name="0.10.2-hadoop2" status="release" pubdate="20170624013815" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="16867" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/bigquery-connector/ivy-0.10.2-hadoop2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/bigquery-connector/0.10.2-hadoop2/bigquery-connector-0.10.2-hadoop2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.10.2-hadoop2" rev-constraint-default="0.10.2-hadoop2" rev-constraint-dynamic="0.10.2-hadoop2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="bigquery-connector" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="76256" time="1141" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/bigquery-connector/srcs/bigquery-connector-0.10.2-hadoop2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/bigquery-connector/0.10.2-hadoop2/bigquery-connector-0.10.2-hadoop2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.gson" name="gson">
+			<revision name="2.3" status="release" pubdate="20140812014157" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/google-gson/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3381" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.code.gson/gson/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="139767" time="1063" location="/Users/loicmdivad/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.3/gson-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-mapred">
+			<revision name="1.7.7" status="release" pubdate="20140718220958" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11249" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.avro/avro-mapred/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="avro-mapred" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="129186" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.avro/avro-mapred/srcs/avro-mapred-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro-ipc">
+			<revision name="1.7.7" status="release" pubdate="20140718220935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11985" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.avro/avro-ipc/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="avro-ipc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="229100" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.avro/avro-ipc/srcs/avro-ipc-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.velocity" name="velocity">
+			<revision name="1.7" status="release" pubdate="20101129202813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://velocity.apache.org/engine/devel/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4793" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.velocity/velocity/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="velocity" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="515284" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.velocity/velocity/srcs/velocity-1.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.4" status="release" pubdate="20080319064228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4885" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-lang/commons-lang/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="339321" time="2681" location="/Users/loicmdivad/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415030924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4831" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="641582" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-collections/commons-collections/srcs/commons-collections-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.4.0.Final" status="release" pubdate="20120412180853" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6119" time="0" location="/Users/loicmdivad/.ivy2/cache/io.netty/netty/ivy-3.4.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.4.0.Final/netty-3.4.0.Final.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="3.4.0.Final" rev-constraint-default="3.4.0.Final" rev-constraint-dynamic="3.4.0.Final" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="894749" time="4759" location="/Users/loicmdivad/.ivy2/cache/io.netty/netty/srcs/netty-3.4.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.4.0.Final/netty-3.4.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="gcs-connector">
+			<revision name="1.6.1-hadoop2" status="release" pubdate="20170624013720" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="15749" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/gcs-connector/ivy-1.6.1-hadoop2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/gcs-connector/1.6.1-hadoop2/gcs-connector-1.6.1-hadoop2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.6.1-hadoop2" rev-constraint-default="1.6.1-hadoop2" rev-constraint-dynamic="1.6.1-hadoop2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="gcs-connector" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="47946" time="540" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/gcs-connector/srcs/gcs-connector-1.6.1-hadoop2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/gcs-connector/1.6.1-hadoop2/gcs-connector-1.6.1-hadoop2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="gcsio">
+			<revision name="1.6.1" status="release" pubdate="20170624013635" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14307" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/gcsio/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/gcsio/1.6.1/gcsio-1.6.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="gcsio" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="134154" time="1699" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/gcsio/srcs/gcsio-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/gcsio/1.6.1/gcsio-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.7.7" status="release" pubdate="20140718220856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11109" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.avro/avro/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="avro" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="260233" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.avro/avro/srcs/avro-1.7.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522065732" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8141" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-compress" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="264972" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.commons/commons-compress/srcs/commons-compress-1.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.3" status="release" pubdate="20101019151431" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3466" time="0" location="/Users/loicmdivad/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="26753" time="416" location="/Users/loicmdivad/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715050750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2787" time="0" location="/Users/loicmdivad/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="548251" time="0" location="/Users/loicmdivad/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="util-hadoop">
+			<revision name="1.6.1-hadoop2" status="release" pubdate="20170624013642" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14676" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/util-hadoop/ivy-1.6.1-hadoop2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/util-hadoop/1.6.1-hadoop2/util-hadoop-1.6.1-hadoop2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.6.1-hadoop2" rev-constraint-default="1.6.1-hadoop2" rev-constraint-dynamic="1.6.1-hadoop2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="util-hadoop" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8348" time="149" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/util-hadoop/srcs/util-hadoop-1.6.1-hadoop2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/util-hadoop/1.6.1-hadoop2/util-hadoop-1.6.1-hadoop2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.0.5" status="release" pubdate="20130517033557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/xerial/snappy-java/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3994" time="0" location="/Users/loicmdivad/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="28089" time="1016" location="/Users/loicmdivad/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.7" status="release" pubdate="20161219235523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6701" time="0" location="/Users/loicmdivad/.ivy2/cache/joda-time/joda-time/ivy-2.9.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.7/joda-time-2.9.7.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.9.7" rev-constraint-default="2.9.7" rev-constraint-dynamic="2.9.7" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="777820" time="0" location="/Users/loicmdivad/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.7/joda-time-2.9.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-bigquery">
+			<revision name="v2-rev369-1.23.0" status="release" pubdate="20180112090528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3166" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.apis/google-api-services-bigquery/ivy-v2-rev369-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-bigquery/v2-rev369-1.23.0/google-api-services-bigquery-v2-rev369-1.23.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="v2-rev369-1.23.0" rev-constraint-default="v2-rev369-1.23.0" rev-constraint-dynamic="v2-rev369-1.23.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-api-services-bigquery" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="580085" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.apis/google-api-services-bigquery/srcs/google-api-services-bigquery-v2-rev369-1.23.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-bigquery/v2-rev369-1.23.0/google-api-services-bigquery-v2-rev369-1.23.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client">
+			<revision name="1.23.0" status="release" pubdate="20171003000735" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11981" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.api-client/google-api-client/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-api-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="192748" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.api-client/google-api-client/srcs/google-api-client-1.23.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client-jackson2">
+			<revision name="1.23.0" status="release" pubdate="20171003000036" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10157" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.http-client/google-http-client-jackson2/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-http-client-jackson2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5490" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.http-client/google-http-client-jackson2/srcs/google-http-client-jackson2-1.23.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.1.3" status="release" pubdate="20130119220627" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/Users/loicmdivad/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="218774" time="0" location="/Users/loicmdivad/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.oauth-client" name="google-oauth-client">
+			<revision name="1.23.0" status="release" pubdate="20171003000323" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9911" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.oauth-client/google-oauth-client/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-oauth-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="67349" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.oauth-client/google-oauth-client/srcs/google-oauth-client-1.23.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.http-client" name="google-http-client">
+			<revision name="1.23.0" status="release" pubdate="20171002235906" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10787" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.http-client/google-http-client/ivy-1.23.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.23.0" rev-constraint-default="1.23.0" rev-constraint-dynamic="1.23.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="267246" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.http-client/google-http-client/srcs/google-http-client-1.23.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.0.1" status="release" pubdate="20091209202018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache License" url="../LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5178" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="389445" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.3" status="release" pubdate="20051108232951" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jakarta.apache.org/commons/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-codec/commons-codec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55191" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126212410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4212" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74976" time="0" location="/Users/loicmdivad/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.0.1" status="release" pubdate="20090621130836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4460" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="291844" time="0" location="/Users/loicmdivad/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava-jdk5">
+			<revision name="17.0" status="release" pubdate="20140422230923" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5878" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.guava/guava-jdk5/ivy-17.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="17.0" rev-constraint-default="17.0" rev-constraint-dynamic="17.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="guava-jdk5" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1225484" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.guava/guava-jdk5/srcs/guava-jdk5-17.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty">
+			<revision name="6.1.26" status="release" pubdate="20101110224054" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="6847" time="0" location="/Users/loicmdivad/.ivy2/cache/org.mortbay.jetty/jetty/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jetty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="395643" time="0" location="/Users/loicmdivad/.ivy2/cache/org.mortbay.jetty/jetty/srcs/jetty-6.1.26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.26" status="release" pubdate="20101110223810" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="6784" time="0" location="/Users/loicmdivad/.ivy2/cache/org.mortbay.jetty/jetty-util/ivy-6.1.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="123338" time="0" location="/Users/loicmdivad/.ivy2/cache/org.mortbay.jetty/jetty-util/srcs/jetty-util-6.1.26-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="servlet-api">
+			<revision name="2.5-20081211" status="release" pubdate="20081211183400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache License Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2982" time="0" location="/Users/loicmdivad/.ivy2/cache/org.mortbay.jetty/servlet-api/ivy-2.5-20081211.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.5-20081211" rev-constraint-default="2.5-20081211" rev-constraint-dynamic="2.5-20081211" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="185847" time="0" location="/Users/loicmdivad/.ivy2/cache/org.mortbay.jetty/servlet-api/srcs/servlet-api-2.5-20081211-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.cloud.bigdataoss" name="util">
+			<revision name="1.6.1" status="release" pubdate="20170624013916" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="13888" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/util/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/util/1.6.1/util-1.6.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="util" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="37084" time="434" location="/Users/loicmdivad/.ivy2/cache/com.google.cloud.bigdataoss/util/srcs/util-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/cloud/bigdataoss/util/1.6.1/util-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="18.0" status="release" pubdate="20140825204834" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5524" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.guava/guava/ivy-18.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="18.0" rev-constraint-default="18.0" rev-constraint-dynamic="18.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1277909" time="4330" location="/Users/loicmdivad/.ivy2/cache/com.google.guava/guava/srcs/guava-18.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="2.0.3" status="release" pubdate="20131231082623" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://code.google.com/p/jsr-305/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2521" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-2.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.0.3" rev-constraint-default="2.0.3" rev-constraint-dynamic="2.0.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="362" time="465" location="/Users/loicmdivad/.ivy2/cache/com.google.code.findbugs/jsr305/srcs/jsr305-2.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.3/jsr305-2.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.apis" name="google-api-services-storage">
+			<revision name="v1-rev35-1.20.0" status="release" pubdate="20150514030654" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3163" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.apis/google-api-services-storage/ivy-v1-rev35-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-storage/v1-rev35-1.20.0/google-api-services-storage-v1-rev35-1.20.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="v1-rev35-1.20.0" rev-constraint-default="v1-rev35-1.20.0" rev-constraint-dynamic="v1-rev35-1.20.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-api-services-storage" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="379193" time="1146" location="/Users/loicmdivad/.ivy2/cache/com.google.apis/google-api-services-storage/srcs/google-api-services-storage-v1-rev35-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/apis/google-api-services-storage/v1-rev35-1.20.0/google-api-services-storage-v1-rev35-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client-jackson2">
+			<revision name="1.20.0" status="release" pubdate="20150319014114" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11256" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.api-client/google-api-client-jackson2/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-jackson2/1.20.0/google-api-client-jackson2-1.20.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-api-client-jackson2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3505" time="266" location="/Users/loicmdivad/.ivy2/cache/com.google.api-client/google-api-client-jackson2/srcs/google-api-client-jackson2-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-jackson2/1.20.0/google-api-client-jackson2-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022114446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2403" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="xz" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="119146" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tukaani/xz/srcs/xz-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.0" status="release" pubdate="20170208232214" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10562" time="0" location="/Users/loicmdivad/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.0/logback-classic-1.2.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="230246" time="0" location="/Users/loicmdivad/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.0/logback-classic-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.0" status="release" pubdate="20170208232126" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="8166" time="0" location="/Users/loicmdivad/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.0/logback-core-1.2.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="397691" time="0" location="/Users/loicmdivad/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.0/logback-core-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.criteo.cuttle" name="timeseries_2.11">
+			<revision name="0.3.0" status="release" pubdate="20180103140348" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/criteo/cuttle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2805" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.cuttle/timeseries_2.11/ivy-0.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/criteo/cuttle/timeseries_2.11/0.3.0/timeseries_2.11-0.3.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="timeseries_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21131" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.cuttle/timeseries_2.11/srcs/timeseries_2.11-0.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/criteo/cuttle/timeseries_2.11/0.3.0/timeseries_2.11-0.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.criteo.cuttle" name="cuttle_2.11">
+			<revision name="0.3.0" status="release" pubdate="20180103140344" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/criteo/cuttle" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="77">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5124" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.cuttle/cuttle_2.11/ivy-0.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/criteo/cuttle/cuttle_2.11/0.3.0/cuttle_2.11-0.3.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.3.0" rev-constraint-default="0.3.0" rev-constraint-dynamic="0.3.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="cuttle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37762" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.cuttle/cuttle_2.11/srcs/cuttle_2.11-0.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/criteo/cuttle/cuttle_2.11/0.3.0/cuttle_2.11-0.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="6.0.6" status="release" pubdate="20170223024457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2537" time="0" location="/Users/loicmdivad/.ivy2/cache/mysql/mysql-connector-java/ivy-6.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="6.0.6" rev-constraint-default="6.0.6" rev-constraint-dynamic="6.0.6" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1271995" time="0" location="/Users/loicmdivad/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-6.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tpolecat" name="doobie-hikari_2.11">
+			<revision name="0.5.0-M11" status="release" pubdate="20171220054043" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tpolecat/doobie" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3328" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tpolecat/doobie-hikari_2.11/ivy-0.5.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tpolecat/doobie-hikari_2.11/0.5.0-M11/doobie-hikari_2.11-0.5.0-M11.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.5.0-M11" rev-constraint-default="0.5.0-M11" rev-constraint-dynamic="0.5.0-M11" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="doobie-hikari_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2508" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tpolecat/doobie-hikari_2.11/srcs/doobie-hikari_2.11-0.5.0-M11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tpolecat/doobie-hikari_2.11/0.5.0-M11/doobie-hikari_2.11-0.5.0-M11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="2.7.4" status="release" pubdate="20171124182056" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8034" time="0" location="/Users/loicmdivad/.ivy2/cache/com.zaxxer/HikariCP/ivy-2.7.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.4/HikariCP-2.7.4.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.7.4" rev-constraint-default="2.7.4" rev-constraint-dynamic="2.7.4" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="HikariCP" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="76806" time="0" location="/Users/loicmdivad/.ivy2/cache/com.zaxxer/HikariCP/srcs/HikariCP-2.7.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.4/HikariCP-2.7.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316173632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/Users/loicmdivad/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/Users/loicmdivad/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tpolecat" name="doobie-core_2.11">
+			<revision name="0.5.0-M11" status="release" pubdate="20171220054231" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tpolecat/doobie" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3749" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tpolecat/doobie-core_2.11/ivy-0.5.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tpolecat/doobie-core_2.11/0.5.0-M11/doobie-core_2.11-0.5.0-M11.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.5.0-M11" rev-constraint-default="0.5.0-M11" rev-constraint-dynamic="0.5.0-M11" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="doobie-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63059" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tpolecat/doobie-core_2.11/srcs/doobie-core_2.11-0.5.0-M11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tpolecat/doobie-core_2.11/0.5.0-M11/doobie-core_2.11-0.5.0-M11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.11">
+			<revision name="0.1.4" status="release" pubdate="20170709014014" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2965" time="0" location="/Users/loicmdivad/.ivy2/cache/com.lihaoyi/sourcecode_2.11/ivy-0.1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.11/0.1.4/sourcecode_2.11-0.1.4.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.1.4" rev-constraint-default="0.1.4" rev-constraint-dynamic="0.1.4" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="sourcecode_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2593" time="0" location="/Users/loicmdivad/.ivy2/cache/com.lihaoyi/sourcecode_2.11/srcs/sourcecode_2.11-0.1.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.11/0.1.4/sourcecode_2.11-0.1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tpolecat" name="doobie-free_2.11">
+			<revision name="0.5.0-M11" status="release" pubdate="20171220054322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tpolecat/doobie" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3490" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tpolecat/doobie-free_2.11/ivy-0.5.0-M11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tpolecat/doobie-free_2.11/0.5.0-M11/doobie-free_2.11-0.5.0-M11.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.5.0-M11" rev-constraint-default="0.5.0-M11" rev-constraint-dynamic="0.5.0-M11" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="doobie-free_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57475" time="0" location="/Users/loicmdivad/.ivy2/cache/org.tpolecat/doobie-free_2.11/srcs/doobie-free_2.11-0.5.0-M11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tpolecat/doobie-free_2.11/0.5.0-M11/doobie-free_2.11-0.5.0-M11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-free_2.11">
+			<revision name="1.0.0-RC2" status="release" pubdate="20171219022551" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3224" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-free_2.11/ivy-1.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/1.0.0-RC2/cats-free_2.11-1.0.0-RC2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0.0-RC2" rev-constraint-default="1.0.0-RC2" rev-constraint-dynamic="1.0.0-RC2" callerrev="0.1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-free_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14948" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-free_2.11/srcs/cats-free_2.11-1.0.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/1.0.0-RC2/cats-free_2.11-1.0.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="nuprocess">
+			<revision name="1.1.0" status="release" pubdate="20160705183921" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/NuProcess" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3580" time="0" location="/Users/loicmdivad/.ivy2/cache/com.zaxxer/nuprocess/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/nuprocess/1.1.0/nuprocess-1.1.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="nuprocess" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="61737" time="0" location="/Users/loicmdivad/.ivy2/cache/com.zaxxer/nuprocess/srcs/nuprocess-1.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/nuprocess/1.1.0/nuprocess-1.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.java.dev.jna" name="jna">
+			<revision name="4.1.0" status="release" pubdate="20140306165605" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twall/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="LGPL, version 2.1" url="http://www.gnu.org/licenses/licenses.html"/>
+				<license name="ASL, version 2" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="2534" time="0" location="/Users/loicmdivad/.ivy2/cache/net.java.dev.jna/jna/ivy-4.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="4.1.0" rev-constraint-default="4.1.0" rev-constraint-dynamic="4.1.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="135355" time="0" location="/Users/loicmdivad/.ivy2/cache/net.java.dev.jna/jna/srcs/jna-4.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="codes.reactive" name="scala-time_2.11">
+			<revision name="0.4.1" status="release" pubdate="20161107103038" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://oss.reactive.codes/scala-time" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2850" time="0" location="/Users/loicmdivad/.ivy2/cache/codes.reactive/scala-time_2.11/ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/codes/reactive/scala-time_2.11/0.4.1/scala-time_2.11-0.4.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-time_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24972" time="0" location="/Users/loicmdivad/.ivy2/cache/codes.reactive/scala-time_2.11/srcs/scala-time_2.11-0.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/codes/reactive/scala-time_2.11/0.4.1/scala-time_2.11-0.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-mtl-core_2.11">
+			<revision name="0.2.0" status="release" pubdate="20171219153322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/edmundnoble/cats-mtl" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3399" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-mtl-core_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-mtl-core_2.11/0.2.0/cats-mtl-core_2.11-0.2.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="cats-mtl-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25780" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-mtl-core_2.11/srcs/cats-mtl-core_2.11-0.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-mtl-core_2.11/0.2.0/cats-mtl-core_2.11-0.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.11">
+			<revision name="1.13.4" status="release" pubdate="20161101151546" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.13.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.13.4" rev-constraint-default="1.13.4" rev-constraint-dynamic="1.13.4" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53555" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.13.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629004435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2721" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-sbt/test-interface/srcs/test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mpilquist" name="simulacrum_2.11">
+			<revision name="0.10.0" status="release" pubdate="20161020034638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3140" time="0" location="/Users/loicmdivad/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="simulacrum_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6576" time="0" location="/Users/loicmdivad/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/srcs/simulacrum_2.11-0.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.11" status="release" pubdate="20170413215043" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="565435" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.11/scala-reflect-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-stm" name="scala-stm_2.11">
+			<revision name="0.8" status="release" pubdate="20161117183900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nbronson.github.com/scala-stm/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="BSD" url="https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="2663" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-stm/scala-stm_2.11/ivy-0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.8/scala-stm_2.11-0.8.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.8" rev-constraint-default="0.8" rev-constraint-dynamic="0.8" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-stm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="116453" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.11/0.8/scala-stm_2.11-0.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.sciss" name="fingertree_2.11">
+			<revision name="1.5.2" status="release" pubdate="20140422230202" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/Sciss/FingerTree" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="LGPL v2.1+" url="http://www.gnu.org/licenses/lgpl-2.1.txt"/>
+				<metadata-artifact status="no" details="" size="2850" time="0" location="/Users/loicmdivad/.ivy2/cache/de.sciss/fingertree_2.11/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/sciss/fingertree_2.11/1.5.2/fingertree_2.11-1.5.2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="fingertree_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14206" time="0" location="/Users/loicmdivad/.ivy2/cache/de.sciss/fingertree_2.11/srcs/fingertree_2.11-1.5.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/sciss/fingertree_2.11/1.5.2/fingertree_2.11-1.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.criteo.lolhttp" name="lolhtml_2.11">
+			<revision name="0.9.0" status="release" pubdate="20180103114400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/criteo/lolhttp" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2800" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.lolhttp/lolhtml_2.11/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/criteo/lolhttp/lolhtml_2.11/0.9.0/lolhtml_2.11-0.9.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="lolhtml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1695" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.lolhttp/lolhtml_2.11/srcs/lolhtml_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/criteo/lolhttp/lolhtml_2.11/0.9.0/lolhtml_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.criteo.lolhttp" name="loljson_2.11">
+			<revision name="0.9.0" status="release" pubdate="20180103114358" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/criteo/lolhttp" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3387" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.lolhttp/loljson_2.11/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/criteo/lolhttp/loljson_2.11/0.9.0/loljson_2.11-0.9.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="loljson_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1830" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.lolhttp/loljson_2.11/srcs/loljson_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/criteo/lolhttp/loljson_2.11/0.9.0/loljson_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-optics_2.11">
+			<revision name="0.9.0-M3" status="release" pubdate="20171221204707" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3106" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-optics_2.11/ivy-0.9.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-optics_2.11/0.9.0-M3/circe-optics_2.11-0.9.0-M3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0-M3" rev-constraint-default="0.9.0-M3" rev-constraint-dynamic="0.9.0-M3" callerrev="0.1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-optics_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5860" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-optics_2.11/srcs/circe-optics_2.11-0.9.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-optics_2.11/0.9.0-M3/circe-optics_2.11-0.9.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.julien-truffaut" name="monocle-core_2.11">
+			<revision name="1.4.0" status="release" pubdate="20170114234325" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/julien-truffaut/Monocle" extra-info.apiURL="https://julien-truffaut.github.io/Monocle/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3135" time="0" location="/Users/loicmdivad/.ivy2/cache/com.github.julien-truffaut/monocle-core_2.11/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/julien-truffaut/monocle-core_2.11/1.4.0/monocle-core_2.11-1.4.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1.0" extra-info.apiURL="https://julien-truffaut.github.io/Monocle/api/"/>
+				<artifacts>
+					<artifact name="monocle-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62387" time="0" location="/Users/loicmdivad/.ivy2/cache/com.github.julien-truffaut/monocle-core_2.11/srcs/monocle-core_2.11-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/julien-truffaut/monocle-core_2.11/1.4.0/monocle-core_2.11-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831130233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12469" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-parser_2.11">
+			<revision name="0.9.0-M3" status="release" pubdate="20171221204641" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3089" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-parser_2.11/ivy-0.9.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.11/0.9.0-M3/circe-parser_2.11-0.9.0-M3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0-M3" rev-constraint-default="0.9.0-M3" rev-constraint-dynamic="0.9.0-M3" callerrev="0.1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-parser_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="831" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-parser_2.11/srcs/circe-parser_2.11-0.9.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-parser_2.11/0.9.0-M3/circe-parser_2.11-0.9.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-jawn_2.11">
+			<revision name="0.9.0-M3" status="release" pubdate="20171221204543" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3088" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-jawn_2.11/ivy-0.9.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.11/0.9.0-M3/circe-jawn_2.11-0.9.0-M3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0-M3" rev-constraint-default="0.9.0-M3" rev-constraint-dynamic="0.9.0-M3" callerrev="0.1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-jawn_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2065" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-jawn_2.11/srcs/circe-jawn_2.11-0.9.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-jawn_2.11/0.9.0-M3/circe-jawn_2.11-0.9.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-generic_2.11">
+			<revision name="0.9.0-M3" status="release" pubdate="20171221204641" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3545" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-generic_2.11/ivy-0.9.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.11/0.9.0-M3/circe-generic_2.11-0.9.0-M3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0-M3" rev-constraint-default="0.9.0-M3" rev-constraint-dynamic="0.9.0-M3" callerrev="0.1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-generic_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13126" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-generic_2.11/srcs/circe-generic_2.11-0.9.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-generic_2.11/0.9.0-M3/circe-generic_2.11-0.9.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.3.2" status="release" pubdate="20160818135130" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/Users/loicmdivad/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163659" time="0" location="/Users/loicmdivad/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.2/shapeless_2.11-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215115037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/macro-compat_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-core_2.11">
+			<revision name="0.9.0-M3" status="release" pubdate="20171221204535" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3091" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-core_2.11/ivy-0.9.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-core_2.11/0.9.0-M3/circe-core_2.11-0.9.0-M3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0-M3" rev-constraint-default="0.9.0-M3" rev-constraint-dynamic="0.9.0-M3" callerrev="0.1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41476" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-core_2.11/srcs/circe-core_2.11-0.9.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-core_2.11/0.9.0-M3/circe-core_2.11-0.9.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.circe" name="circe-numbers_2.11">
+			<revision name="0.9.0-M3" status="release" pubdate="20171221204349" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/circe/circe" extra-info.apiURL="https://circe.github.io/circe/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2802" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-numbers_2.11/ivy-0.9.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.11/0.9.0-M3/circe-numbers_2.11-0.9.0-M3.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0-M3" rev-constraint-default="0.9.0-M3" rev-constraint-dynamic="0.9.0-M3" callerrev="0.1.0" extra-info.apiURL="https://circe.github.io/circe/api/"/>
+				<artifacts>
+					<artifact name="circe-numbers_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4029" time="0" location="/Users/loicmdivad/.ivy2/cache/io.circe/circe-numbers_2.11/srcs/circe-numbers_2.11-0.9.0-M3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/circe/circe-numbers_2.11/0.9.0-M3/circe-numbers_2.11-0.9.0-M3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.criteo.lolhttp" name="lolhttp_2.11">
+			<revision name="0.9.0" status="release" pubdate="20180103114425" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/criteo/lolhttp" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2794" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.lolhttp/lolhttp_2.11/ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/criteo/lolhttp/lolhttp_2.11/0.9.0/lolhttp_2.11-0.9.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="lolhttp_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35379" time="0" location="/Users/loicmdivad/.ivy2/cache/com.criteo.lolhttp/lolhttp_2.11/srcs/lolhttp_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/criteo/lolhttp/lolhttp_2.11/0.9.0/lolhttp_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="co.fs2" name="fs2-core_2.11">
+			<revision name="0.10.0-M10" status="release" pubdate="20171219233434" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/functional-streams-for-scala/fs2" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2794" time="0" location="/Users/loicmdivad/.ivy2/cache/co.fs2/fs2-core_2.11/ivy-0.10.0-M10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/co/fs2/fs2-core_2.11/0.10.0-M10/fs2-core_2.11-0.10.0-M10.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.10.0-M10" rev-constraint-default="0.10.0-M10" rev-constraint-dynamic="0.10.0-M10" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="fs2-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="95445" time="0" location="/Users/loicmdivad/.ivy2/cache/co.fs2/fs2-core_2.11/srcs/fs2-core_2.11-0.10.0-M10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/co/fs2/fs2-core_2.11/0.10.0-M10/fs2-core_2.11-0.10.0-M10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-effect_2.11">
+			<revision name="0.6" status="release" pubdate="20171219181655" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats-effect" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3298" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-effect_2.11/ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.11/0.6/cats-effect_2.11-0.6.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="cats-effect_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21612" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-effect_2.11/srcs/cats-effect_2.11-0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.11/0.6/cats-effect_2.11-0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.11">
+			<revision name="1.0.0-RC2" status="release" pubdate="20171219022542" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3352" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-core_2.11/ivy-1.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/1.0.0-RC2/cats-core_2.11-1.0.0-RC2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0.0-RC2" rev-constraint-default="1.0.0-RC2" rev-constraint-dynamic="1.0.0-RC2" callerrev="0.1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="193930" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-core_2.11/srcs/cats-core_2.11-1.0.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/1.0.0-RC2/cats-core_2.11-1.0.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.11">
+			<revision name="1.0.0-RC2" status="release" pubdate="20171219022428" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2782" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-kernel_2.11/ivy-1.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/1.0.0-RC2/cats-kernel_2.11-1.0.0-RC2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0.0-RC2" rev-constraint-default="1.0.0-RC2" rev-constraint-dynamic="1.0.0-RC2" callerrev="0.1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43883" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-kernel_2.11/srcs/cats-kernel_2.11-1.0.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/1.0.0-RC2/cats-kernel_2.11-1.0.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_2.11">
+			<revision name="1.0.0-RC2" status="release" pubdate="20171219022402" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2928" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-macros_2.11/ivy-1.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/1.0.0-RC2/cats-macros_2.11-1.0.0-RC2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.0.0-RC2" rev-constraint-default="1.0.0-RC2" rev-constraint-dynamic="1.0.0-RC2" callerrev="0.1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1160" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/cats-macros_2.11/srcs/cats-macros_2.11-1.0.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/1.0.0-RC2/cats-macros_2.11-1.0.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.11">
+			<revision name="0.6.2" status="release" pubdate="20170601052704" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/machinist_2.11/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.2/machinist_2.11-0.6.2.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="machinist_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3546" time="0" location="/Users/loicmdivad/.ivy2/cache/org.typelevel/machinist_2.11/srcs/machinist_2.11-0.6.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.2/machinist_2.11-0.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715050730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2564" time="0" location="/Users/loicmdivad/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240367" time="0" location="/Users/loicmdivad/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.api-client" name="google-api-client-java6">
+			<revision name="1.20.0" status="release" pubdate="20150319014121" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11408" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.api-client/google-api-client-java6/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-java6/1.20.0/google-api-client-java6-1.20.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-api-client-java6" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3267" time="335" location="/Users/loicmdivad/.ivy2/cache/com.google.api-client/google-api-client-java6/srcs/google-api-client-java6-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/api-client/google-api-client-java6/1.20.0/google-api-client-java6-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.oauth-client" name="google-oauth-client-java6">
+			<revision name="1.20.0" status="release" pubdate="20150319012818" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9579" time="0" location="/Users/loicmdivad/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/ivy-1.20.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.20.0/google-oauth-client-java6-1.20.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.20.0" rev-constraint-default="1.20.0" rev-constraint-dynamic="1.20.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="google-oauth-client-java6" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11163" time="353" location="/Users/loicmdivad/.ivy2/cache/com.google.oauth-client/google-oauth-client-java6/srcs/google-oauth-client-java6-1.20.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client-java6/1.20.0/google-oauth-client-java6-1.20.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.11">
+			<revision name="0.11.0" status="release" pubdate="20170702181803" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2880" time="0" location="/Users/loicmdivad/.ivy2/cache/org.spire-math/jawn-parser_2.11/ivy-0.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.11.0/jawn-parser_2.11-0.11.0.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="0.11.0" rev-constraint-default="0.11.0" rev-constraint-dynamic="0.11.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19093" time="0" location="/Users/loicmdivad/.ivy2/cache/org.spire-math/jawn-parser_2.11/srcs/jawn-parser_2.11-0.11.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.11.0/jawn-parser_2.11-0.11.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.11" status="release" pubdate="20170413215031" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="61">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="2.11.11" rev-constraint-default="2.11.11" rev-constraint-dynamic="2.11.11" callerrev="0.1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.11/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911961" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.11/scala-library-2.11.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-simple">
+			<revision name="1.7.21" status="release" pubdate="20160404203657" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5357" time="0" location="/Users/loicmdivad/.ivy2/cache/org.slf4j/slf4j-simple/ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="slf4j-simple" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11764" time="158" location="/Users/loicmdivad/.ivy2/cache/org.slf4j/slf4j-simple/srcs/slf4j-simple-1.7.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.2.8" status="release" pubdate="20161203135538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2639" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.8/scalaz-core_2.11-7.2.8.pom"/>
+				<caller organisation="fr.xebia" name="cuttle-module$sources" conf="compile, runtime" rev="7.2.8" rev-constraint-default="7.2.8" rev-constraint-dynamic="7.2.8" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="366623" time="0" location="/Users/loicmdivad/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.2.8/scalaz-core_2.11-7.2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
