@@ -13,6 +13,10 @@ val scalaTestVersion = "3.0.4"
 val spotifyVersion = "0.2.2"
 val gcpVersion = "v2-rev369-1.23.0"
 
+enablePlugins(RpmPlugin)
+enablePlugins(RpmDeployPlugin)
+enablePlugins(JavaAppPackaging)
+rpmVendor := "typesafe"
 
 coverageEnabled := true
 
@@ -32,7 +36,7 @@ lazy val common = Seq(
     "ch.qos.logback" % "logback-classic" % "1.2.0" force()
   ),
 
-  logLevel in doc := Level.Error
+  // logLevel in doc := Level.Error
 )
 
 lazy val `xke-cuttle-show` = (project in file("."))
