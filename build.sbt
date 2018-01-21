@@ -42,13 +42,7 @@ lazy val common = Seq(
 
 lazy val `xke-cuttle-show` = (project in file("."))
   .settings(common: _*)
-  .aggregate(`cuttle-module`, `data-ingestion`, `dataset-series`)
-
-lazy val `cuttle-module` = project
-  .settings(common: _*)
-  .settings(gcpDependencies: _*)
-  .settings(cuttleDependencies: _*)
-  .enablePlugins(JavaAppPackaging, UniversalPlugin)
+  .aggregate(`data-ingestion`, `dataset-series`)
 
 lazy val `data-ingestion` = project
   .settings(common: _*)
@@ -56,6 +50,11 @@ lazy val `data-ingestion` = project
   .enablePlugins(JavaAppPackaging, UniversalPlugin)
 
 lazy val `dataset-series` = project
+  .settings(common: _*)
+  .settings(sparkDependencies: _*)
+  .enablePlugins(JavaAppPackaging, UniversalPlugin)
+
+lazy val `dataset-ranking` = project
   .settings(common: _*)
   .settings(sparkDependencies: _*)
   .enablePlugins(JavaAppPackaging, UniversalPlugin)

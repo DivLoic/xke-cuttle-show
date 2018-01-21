@@ -1,4 +1,4 @@
-package fr.xebia.cuttle
+package fr.xebia.cuttle.ranking
 
 /**
   * Created by loicmdivad.
