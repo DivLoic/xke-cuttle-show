@@ -5,7 +5,11 @@ description :=
     |
   """.stripMargin
 
-maintainer := "John Smith <john.smith@example.com>"
+maintainer :=
+  """
+    |Loïc DIVAD <ldivad@xebia.fr>"
+    |Alban PHELIP <aphelip@xebia.fr>
+  """.stripMargin
 
 packageSummary := "package exemple"
 
@@ -47,16 +51,19 @@ lazy val `xke-cuttle-show` = (project in file("."))
 lazy val `data-ingestion` = project
   .settings(common: _*)
   .settings(sparkDependencies: _*)
+  .settings(packagingSettings: _*)
   .enablePlugins(JavaAppPackaging, UniversalPlugin)
 
 lazy val `dataset-series` = project
   .settings(common: _*)
   .settings(sparkDependencies: _*)
+  .settings(packagingSettings: _*)
   .enablePlugins(JavaAppPackaging, UniversalPlugin)
 
 lazy val `dataset-ranking` = project
   .settings(common: _*)
   .settings(sparkDependencies: _*)
+  .settings(packagingSettings: _*)
   .enablePlugins(JavaAppPackaging, UniversalPlugin)
 
 lazy val cuttleDependencies = Seq(
@@ -81,5 +88,12 @@ lazy val gcpDependencies = Seq(
     "com.google.apis" % "google-api-services-bigquery" % gcpVersion,
     "com.spotify" %% "spark-bigquery" % "0.2.2"
   )
+
+)
+
+lazy val packagingSettings = Seq(
+  assemblyJarName in assembly := s"${name.value}-assembly-${version.value}.jar",
+  mappings in Universal --= (mappings in Universal map { jars => jars.filter(jar => jar._2.endsWith(".jar"))}).value,
+  mappings in Universal += (assembly in Compile map { jar => jar -> ("lib/" + jar.getName)}).value
 
 )

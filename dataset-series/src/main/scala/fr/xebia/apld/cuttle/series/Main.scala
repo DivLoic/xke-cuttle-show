@@ -1,4 +1,4 @@
-package fr.xebia.cuttle.series
+package fr.xebia.apld.cuttle.series
 
 /**
   * Created by loicmdivad.
