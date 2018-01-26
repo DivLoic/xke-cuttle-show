@@ -2,7 +2,7 @@ name := "xke-cuttle-show"
 
 description :=
   """
-    |
+    |A simple experiment on workflow automation with the scheduler Cuttle
   """.stripMargin
 
 maintainer :=
@@ -10,10 +10,6 @@ maintainer :=
     |Loïc DIVAD <ldivad@xebia.fr>"
     |Alban PHELIP <aphelip@xebia.fr>
   """.stripMargin
-
-packageSummary := "package exemple"
-
-packageDescription := "description example"
 
 organizationHomepage := Some(url("http://blog.xebia.fr"))
 
@@ -27,7 +23,7 @@ coverageEnabled := true
 
 lazy val common = Seq(
 
-  version := "0.1.0",
+  version := "0.1.0-SNAPSHOT",
 
   isSnapshot := false,
 
